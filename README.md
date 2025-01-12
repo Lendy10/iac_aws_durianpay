@@ -15,8 +15,13 @@ This project utilizes Terraform along with Terragrunt to provision and manage AW
 - **Internet Gateway**: Facilitates internet connectivity for instances in the private subnet while maintaining their security from public access.
 - **route table**: A route table is a collection of routes that specify how network traffic is directed between a subnet and an internet gateway or a virtual private gateway.
 - **NAT Gateway**: Facilitates internet connectivity for instances in the private subnet while maintaining their security from public access.
-- **Auto Scaling Group (ASG)**: Dynamically manages EC2 instances based on CPU utilization to ensure consistent performance and resource availability.
+- **Auto Scaling Group (ASG)**: Dynamically manages EC2 instances based on predefined scaling policies to ensure consistent performance and resource availability.
+- **Security group**: A security group is a collection of network rules that specify the incoming and outgoing traffic allowed for a group of instances.
+- **Launch template**: A launch template is a configuration file that defines the launch settings for an EC2 instance.
+- **Autoscaling policy**: A scaling policy is a set of rules that determine when to scale an Auto Scaling group.
+- **Autoscaling group**: An Auto Scaling group is a collection of EC2 instances that are automatically scaled based on predefined scaling policies.
 - **CloudWatch Monitoring**: Implements monitoring for critical metrics such as CPU usage, memory usage, status check failures, and network throughput.
+- **CloudWatch Alarms**: Triggers scaling actions based on predefined thresholds.
 
 ## Scaling Policy
 
