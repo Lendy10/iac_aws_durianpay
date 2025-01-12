@@ -1,0 +1,3 @@
+./terraform.tfstate
+**/.terragrunt-cache/
+**/.terragrunt.lock.hcl
